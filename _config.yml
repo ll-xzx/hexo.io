@@ -6,8 +6,8 @@
 title: Hexo
 subtitle:
 description:
-author: John Doe
-language: zh-CN
+author: 战吧
+language: zh-Hans
 timezone:
 
 # URL
@@ -71,3 +71,31 @@ deploy:
   type: git
   repo: https://github.com/ll-xzx/ll-xzx.github.io.git
   branch: master
+
+
+# plugins
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+#多说评论
+duoshuo_shortname: llxzx
+
+#百度统计
+baidu_analytics: ca19cf17ab7c9320d3430902d1c7b4c0
+
+#浏览次数
+leancloud_visitors:
+  enable: true
+  app_id: 1wEyfMNvMFyh76Excth0N4jw-gzGzoHsz
+  app_key: DTXWhmgpnHVOsO1B36OOrAIb
