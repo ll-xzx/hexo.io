@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 战吧
 subtitle:
 description:
 author: 战吧
@@ -99,3 +99,6 @@ leancloud_visitors:
   enable: true
   app_id: 1wEyfMNvMFyh76Excth0N4jw-gzGzoHsz
   app_key: DTXWhmgpnHVOsO1B36OOrAIb
+
+tag_generator:
+    per_page: 10
